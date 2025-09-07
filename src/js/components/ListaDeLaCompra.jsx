@@ -25,7 +25,7 @@ export const ListaDeLaCompra = () => {
 
     const eliminarProducto = (index) => {
         const nuevaLista = lista.filter((_, i) => i !== index)
-        setLista(nuevaLista)
+        setLista(nuevaLista) 
     }
 
 
